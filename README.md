@@ -18,7 +18,7 @@ A comprehensive React Native bridge for Android Health Connect, originally devel
 
 ## 📋 Requirements
 
-- **React Native**: 0.70.0 or higher
+- **React Native**: >= 0.70.0 < 1.0.0 (testato fino alla 0.81)
 - **Android API Level**: 26 (Android 8.0) or higher
 - **Health Connect**: Must be installed on the device
 - **Target SDK**: Recommended 34 or higher
@@ -32,6 +32,8 @@ npm install react-native-buddi-health-connect
 # or
 yarn add react-native-buddi-health-connect
 ```
+
+> **Novità 1.0.1**: il range dei peer dependencies ora copre tutte le versioni di React Native dalla 0.70.x alla 0.81.x (e successive 0.x), per cui non è più necessario usare `--legacy-peer-deps` durante l'installazione.
 
 ### Step 2: Android Configuration
 
